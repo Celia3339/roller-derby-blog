@@ -1,4 +1,4 @@
-baseURL = "https://celia3339.github.io/roller_derby_stats/pages/"
+baseURL = "https://celia3339.github.io/roller-derby-blog/"
 languageCode = "es"
 title = "Mi Blog de DataViz"
 theme = "PaperMod"
@@ -15,7 +15,7 @@ theme = "PaperMod"
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/tuusuario"
+  url = "https://github.com/celia3339"
 
 [menu]
   [[menu.main]]
