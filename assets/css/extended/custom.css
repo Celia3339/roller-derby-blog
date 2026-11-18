@@ -1,3 +1,32 @@
+/* ── HEADER ── */
+.header {
+    justify-content: center;
+    border-bottom: 1px solid #00c3e3;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* ── NAVEGACIÓN ── */
+.nav a {
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333 !important;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #00c3e3 !important;
+}
+
+/* ── ANCHO DEL POST ── */
 .post-single main,
 .post-single .post-header,
 .post-single .post-content,
@@ -7,4 +36,13 @@
 
 main.main {
     max-width: 1200px !important;
+}
+
+/* ── TÍTULO DEL BLOG ── */
+.logo a {
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #00c3e3 !important;
+    font-weight: 700;
 }
