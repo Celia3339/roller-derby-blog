@@ -19,14 +19,21 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
+    name = "BLOG"
     url = "/posts/"
     weight = 1
   [[menu.main]]
-    name = "Sobre mí"
-    url = "/about/"
+    name = "DATAVIZ"
+    url = "/tags/dataviz/"
     weight = 2
-
+  [[menu.main]]
+    name = "SOBRE MÍ"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "CONTACTO"
+    url = "/contact/"
+    weight = 4
 
 [markup]
   [markup.goldmark]

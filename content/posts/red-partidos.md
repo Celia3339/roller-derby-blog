@@ -1,7 +1,7 @@
 ---
 title: "Red de partidos WFTDA"
 date: 2026-11-18
-tags: ["roller derby", "dataviz", "WFTDA"]
+tags: ["dataviz", "roller derby", "WFTDA", "redes"]
 draft: false
 ---
 
