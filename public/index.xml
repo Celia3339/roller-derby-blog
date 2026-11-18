@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mi Blog de DataViz</title>
+    <link>http://localhost:1313/roller_derby_stats/pages/</link>
+    <description>Recent content on Mi Blog de DataViz</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/roller_derby_stats/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red de partidos WFTDA</title>
+      <link>http://localhost:1313/roller_derby_stats/pages/posts/red-partidos/</link>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/roller_derby_stats/pages/posts/red-partidos/</guid>
+      <description>&lt;p&gt;Descripción breve de lo que muestra la red&amp;hellip;&lt;/p&gt;
+&lt;iframe src=&#34;https://celia3339.github.io/roller_derby_stats/pages/charts/red_wftda_interactiva.html&#34; 
+        width=&#34;100%&#34; 
+        height=&#34;650px&#34; 
+        style=&#34;border:none;&#34;&gt;
+&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,10 @@
+.post-single main,
+.post-single .post-header,
+.post-single .post-content,
+.post-single footer {
+    max-width: 100% !important;
+}
+
+main.main {
+    max-width: 1200px !important;
+}
