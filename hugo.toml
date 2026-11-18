@@ -4,7 +4,7 @@ title = "Mi Blog de DataViz"
 theme = "PaperMod"
 
 [params]
-  defaultTheme = "dark"
+  defaultTheme = "light"
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
