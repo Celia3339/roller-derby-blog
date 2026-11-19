@@ -9,13 +9,27 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
 
+  [params.logo]
+    url = "/logo.png"
+    width = 80
+    height = 80
+    alt = "Roller Derby For The Plot"
+
+
+[params.label]
+  text = " "
+  icon = "logo.png"
+  iconHeight = 60
+
+
 [params.homeInfoParams]
-  Title = "Hola 👋"
+  Title = "Roller Derby · For The Plot"
   Content = "Blog sobre estadística, dataviz y roller derby"
 
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/celia3339"
+
 
 [menu]
   [[menu.main]]
