@@ -14,9 +14,9 @@
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/red-partidos/</guid>
       <description>&lt;p&gt;Descripción breve de lo que muestra la red&amp;hellip;&lt;/p&gt;
-&lt;iframe src=&#34;http://localhost:1313/red_wftda_interactiva.html&#34; 
-        width=&#34;100%&#34; 
-        height=&#34;650px&#34; 
+&lt;iframe src=&#34;http://localhost:1313/red_wftda_interactiva.html&#34;
+        width=&#34;100%&#34;
+        height=&#34;650px&#34;
         style=&#34;border:none;&#34;&gt;
 &lt;/iframe&gt;</description>
     </item>

@@ -1,4 +1,4 @@
-/* ── HEADER CENTRADO ESTILO VISUAL CINNAMON ── */
+/* ── HEADER: tres columnas simétricas ── */
 .header {
     border-bottom: 2px solid #7c3aed;
     background: white;
@@ -11,9 +11,10 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 8px 20px;
+    padding: 10px 24px;
 }
 
+/* ── LOGO CENTRAL, MÁS GRANDE ── */
 .logo {
     grid-column: 2;
     display: flex;
@@ -25,34 +26,111 @@
     align-items: center;
 }
 
-/* ── QUITAR TEXTO DEL LOGO ── */
+.logo img {
+    height: 80px !important;
+    width: auto;
+}
+
+/* ocultar texto y switches del logo */
 .logo a span,
 .logo-switches {
     display: none;
 }
 
-/* ── MENÚ A LA DERECHA ── */
-#menu {
-    grid-column: 3;
-    justify-content: flex-end;
+/* ── MENÚ IZQUIERDA ── */
+#menu-left {
+    grid-column: 1;
+    justify-content: flex-start;
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#menu a {
-    font-size: 0.72rem;
-    letter-spacing: 0.15em;
+/* ── MENÚ DERECHA ── */
+#menu-right {
+    grid-column: 3;
+    justify-content: flex-end;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── ESTILO COMPARTIDO DE ENLACES DEL MENÚ ── */
+#menu-left a,
+#menu-right a {
+    font-size: 0.82rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     color: #333 !important;
     text-decoration: none;
 }
 
-#menu a:hover {
+#menu-left a:hover,
+#menu-right a:hover {
     color: #7c3aed !important;
+}
+
+#menu-left a span.active,
+#menu-right a span.active {
+    color: #7c3aed !important;
+    border-bottom: 2px solid #7c3aed;
+    padding-bottom: 2px;
+}
+
+/* ── HOME HERO: logo grande a la izquierda + texto a la derecha ── */
+.home-info {
+    display: flex !important;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 0 2.5rem 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.home-info-logo {
+    flex-shrink: 0;
+}
+
+.home-info-logo img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.home-info-text {
+    flex: 1;
+}
+
+.home-info-text h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+    color: #111;
+}
+
+.home-info-text p {
+    font-size: 1.05rem;
+    color: #555;
+    margin: 0 0 1rem 0;
+}
+
+/* ── ENCABEZADO LATEST POST ── */
+.latest-posts-heading {
+    max-width: 1200px;
+    margin: 0 auto 1rem auto;
+    padding: 0 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #7c3aed;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 0.5rem;
 }
 
 /* ── ANCHO DEL POST ── */

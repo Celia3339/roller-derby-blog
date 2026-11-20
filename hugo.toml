@@ -19,7 +19,7 @@ theme = "PaperMod"
 [params.label]
   text = " "
   icon = "logo.png"
-  iconHeight = 60
+  iconHeight = 80
 
 
 [params.homeInfoParams]
