@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WFTDA on Mi Blog de DataViz</title>
-    <link>http://localhost:54469/roller-derby-blog/tags/wftda/</link>
+    <link>http://localhost:1313/tags/wftda/</link>
     <description>Recent content in WFTDA on Mi Blog de DataViz</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54469/roller-derby-blog/tags/wftda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/wftda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Red de partidos WFTDA</title>
-      <link>http://localhost:54469/roller-derby-blog/posts/red-partidos/</link>
+      <link>http://localhost:1313/posts/red-partidos/</link>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54469/roller-derby-blog/posts/red-partidos/</guid>
+      <guid>http://localhost:1313/posts/red-partidos/</guid>
       <description>&lt;p&gt;Descripción breve de lo que muestra la red&amp;hellip;&lt;/p&gt;
-&lt;iframe src=&#34;https://celia3339.github.io/roller_derby_stats/pages/charts/red_wftda_interactiva.html&#34; 
+&lt;iframe src=&#34;http://localhost:1313/red_wftda_interactiva.html&#34; 
         width=&#34;100%&#34; 
         height=&#34;650px&#34; 
         style=&#34;border:none;&#34;&gt;
