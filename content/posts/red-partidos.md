@@ -7,7 +7,7 @@ draft: false
 
 Descripción breve de lo que muestra la red...
 
-<iframe src="https://celia3339.github.io/roller_derby_stats/pages/charts/red_wftda_interactiva.html" 
+<iframe src="/red_wftda_interactiva.html" 
         width="100%" 
         height="650px" 
         style="border:none;">
